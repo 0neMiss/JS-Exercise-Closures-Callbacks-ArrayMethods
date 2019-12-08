@@ -273,7 +273,7 @@ function counterMaker() {
 
   var count = 0;
   return function counter() {
-    count = count++;
+    count = count + 1;
     return count;
   };
 }
